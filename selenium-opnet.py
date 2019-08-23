@@ -23,6 +23,9 @@ time.sleep(3)
 
 
 # 파싱용 데이터 추출
+
+driver.get_screenshot_as_file('D:\\tyn_dev\\workspace_pycham\\python-selenium-work\\image\\screen-shot.png')
+
 html = driver.page_source
 soup = BeautifulSoup(html, 'html.parser')
 print(soup)

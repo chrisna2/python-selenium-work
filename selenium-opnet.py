@@ -21,7 +21,6 @@ sigungu_select = Select(driver.find_element_by_id('SIGUNGU_NM0'))
 sigungu_select.select_by_visible_text('해운대구')
 time.sleep(3)
 
-
 # 파싱용 데이터 추출
 
 driver.get_screenshot_as_file('D:\\tyn_dev\\workspace_pycham\\python-selenium-work\\image\\screen-shot.png')
@@ -37,5 +36,4 @@ print(href_value)
 print(href_value.split(',')[22][1:-1])
 
 driver.close()
-
 # [참고] https://github.com/soongon/py-scraping-201901

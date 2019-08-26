@@ -37,3 +37,11 @@ for item in my_list:
 def get_hello():
     return "hello lamda"
 
+
+
+"""
+파이썬 이슈 with 날짜
+
+컴퓨터 : 1970.1.1을 기준 년을 잡고 1초에 1000씩 밀리세컨드 증가
+
+"""
